@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1,
+h5 {
+  margin: 0;
+}
+
+.heading-size {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.name-size {
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.header-grid-2 ::before {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.professional-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-media {
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.icon-size {
+  font-size: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.contact-me-size {
+  display: flex;
+  justify-content: center;
+}
+
+.form-design {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.name-box-size {
+  width: 300px;
+  height: 30px;
+  border: solid 1px black;
+  margin-bottom: 10px;
+}
+
+.email-box-size {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: solid 1px black;
+}
+
+.question-box-size {
+  width: 296px;
+  height: 205px;
+  border: solid 1px black;
+}
