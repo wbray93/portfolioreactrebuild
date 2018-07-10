@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: rgba(144, 238, 144, 0.3);
 }
 
 h1,
@@ -9,23 +10,24 @@ h5 {
   margin: 0;
 }
 
+.header-style {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .heading-size {
   font-size: 14px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .name-size {
   font-size: 28px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
-.header-grid-2 ::before {
-  display: flex;
-  justify-content: flex-end;
+.fa-bars:before{
+  font-size: xx-large;
+  margin-left: 150px;
 }
 
 .professional-image {
@@ -75,4 +77,10 @@ h5 {
   width: 296px;
   height: 205px;
   border: solid 1px black;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
