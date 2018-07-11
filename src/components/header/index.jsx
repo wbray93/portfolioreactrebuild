@@ -9,7 +9,7 @@ class Header extends React.Component {
             <u>William S Bray</u>
           </strong>
         </h1>
-        <i class="fas fa-bars header-grid-2" />
+        <i class="fas fa-bars" />
         <h5 className="heading-size">
           <strong>Front End Developer, Blogger & Music Enthusiast.</strong>
         </h5>
