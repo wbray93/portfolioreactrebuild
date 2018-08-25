@@ -12,7 +12,7 @@ h5 {
 
 .header-style {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .heading-size {
@@ -25,15 +25,14 @@ h5 {
   margin-left: 15px;
 }
 
-.fa-bars:before{
+.fa-bars:before {
   font-size: xx-large;
-  margin-left: 150px;
+  padding: 8px;
 }
 
 .professional-image {
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
+  max-width: 300px;
 }
 
 .social-media {
@@ -84,3 +83,86 @@ h5 {
   justify-content: center;
   margin-top: 15px;
 }
+
+#dropdown {
+  right: 0;
+  left: 0;
+  background-color: rgb(221, 249, 221);
+  padding: 10px;
+  position: absolute;
+  border: 2px solid lightcoral;
+}
+
+#dropdown>a {
+  display: block;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.home-page-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.professional-description {
+  margin-left: 36px;
+  padding: 16px;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 28px;
+  border: 2px solid rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .professional-image {
+    max-width: 450px;
+    min-width: 450px;
+  }
+  .name-size {
+    font-size: 36px;
+  }
+  .heading-size {
+    font-size: 30px;
+  }
+  .link-style>a {
+    padding: 8px;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    transition: color 500ms linear;
+  }
+  .link-style>a:hover {
+    color: red;
+    transition: color 500ms linear;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

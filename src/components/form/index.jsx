@@ -29,7 +29,8 @@ class Form extends React.Component {
           <textarea
             className="question-box-size"
             placeholder="Type your inquiry here."
-            name="question"
+            name="question-box-size"
+            type="text"
           />
           <input type="submit" value="Send" />
         </form>

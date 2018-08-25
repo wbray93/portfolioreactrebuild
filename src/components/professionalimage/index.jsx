@@ -5,10 +5,9 @@ class Professionalimage extends React.Component {
     return (
       <div className="professional-image">
         <img
+          className="img-responsive"
           src={"/images/portfolioimageone.jpg"}
           alt="William Bray"
-          width="300"
-          height="300"
         />
       </div>
     );
