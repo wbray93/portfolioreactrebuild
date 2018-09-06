@@ -6,6 +6,7 @@ import Social from "../../components/social media";
 import Professionalimage from "../../components/professionalimage";
 import Skills from "../../components/skills";
 import Paragraph from "../../components/paragraph";
+import Projects from "../../components/projects";
 
 const Home = () => (
   <div className="home">
@@ -25,6 +26,10 @@ const Home = () => (
       </Paragraph>
     </div>
     <Skills />
+    <div className="home">
+      <Projects className="desktop-only" />
+    </div>
+
     <Form />
     <Social />
   </div>
