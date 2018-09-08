@@ -1,66 +1,34 @@
 import * as React from "react";
 
-const Projects = () => (
-  <div className="project-section">
-    <div className="projectflexcontainerone">
-      <a>
-        <img
-          className="projectsrowone img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowone img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowone img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowone img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
+const imagesRowOne = [
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg"
+];
+
+const imagesRowTwo = [
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg",
+  "/images/portfolio placeholder.jpg"
+];
+
+const Projects = ({ className }) => (
+  <div className={`project-section ${className}`}>
+    <div className="projectflex">
+      {imagesRowOne.map((img, i) => (
+        <a className="projectsrowone" key={i}>
+          <img className="img-responsive" src={img} alt="projectthumbnail" />
+        </a>
+      ))}
     </div>
-    <div className="projectflexcontainertwo">
-      <a>
-        <img
-          className="projectsrowtwo img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowtwo img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowtwo img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
-      <a>
-        <img
-          className="projectsrowtwo img-responsive"
-          src={"/images/portfolio placeholder.jpg"}
-          alt="projectthumbnail"
-        />
-      </a>
+    <div className="projectflex">
+      {imagesRowTwo.map((img, i) => (
+        <a className="projectsrowtwo" key={i}>
+          <img className="img-responsive" src={img} alt="projectthumbnail" />
+        </a>
+      ))}
     </div>
   </div>
 );
