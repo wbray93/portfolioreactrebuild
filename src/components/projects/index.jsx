@@ -1,7 +1,7 @@
 import * as React from "react";
 
 const imagesRowOne = [
-  "/images/portfolio placeholder.jpg",
+  "/images/myreadinglist.png",
   "/images/portfolio placeholder.jpg",
   "/images/portfolio placeholder.jpg",
   "/images/portfolio placeholder.jpg"
