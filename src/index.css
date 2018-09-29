@@ -98,7 +98,7 @@ h5 {
 }
 
 .desktop-only {
-  display: none;
+  display: none!important;
 }
 
 .home-page-description {
@@ -123,22 +123,18 @@ h5 {
   border-radius: 4px;
 }
 
-.projectsrowone {
-  max-width: 400px;
+.project {
+  width: 90vw;
+  display: inline-block;
   margin-top: 20px;
   padding: 20px;
 }
 
-.projectflex {
+.projects-row {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.projectsrowtwo {
-  max-width: 400px;
-  margin-top: 20px;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -146,8 +142,13 @@ h5 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .projectflex {
+  .projects-row {
     flex-direction: row;
+  }
+
+  .project {
+    width: 20vw;
+    padding: 10px;
   }
 }
 
@@ -158,7 +159,7 @@ h5 {
   }
 
   .desktop-only {
-    display: block;
+    display: block!important;
   }
 
   .professional-image {
@@ -185,6 +186,10 @@ h5 {
   .link-style>a:hover {
     color: red;
     transition: color 500ms linear;
+  }
+
+  .project {
+    padding: 20px;
   }
 }
 

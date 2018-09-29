@@ -1,9 +1,13 @@
 import * as React from "react";
 
-
 const Skills = () => (
-  <div className="skills-section">
-    <img src={"/images/adventurecup.jpg"} alt="adventure cup background" width="300" height="300"/>
+  <div className="skills-section img-responsive skills-desktop">
+    <img
+      src={"/images/adventurecup.jpg"}
+      alt="adventure cup background"
+      height="450px"
+      width="450px"
+    />
   </div>
 );
 
