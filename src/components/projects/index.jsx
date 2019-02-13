@@ -17,8 +17,9 @@ const projects = [
     link: "https://codepen.io/wbray93/full/MLrQja"
   },
   {
-    name: "placeholder4",
-    image: "/images/portfolio placeholder.jpg"
+    name: "2d breakout game",
+    image: "/images/breakoutgame.png",
+    link: "https://wbray93.github.io/breakoutgame/"
   },
   {
     name: "placeholder5",
