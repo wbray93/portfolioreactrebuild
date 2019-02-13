@@ -1,7 +1,7 @@
 import * as React from "react";
 
 const Skills = () => (
-  <div className="skills-section img-responsive skills-desktop">
+  <div className="skills-section img-responsive">
     <img
       src={"/images/adventurecup.jpg"}
       alt="adventure cup background"
