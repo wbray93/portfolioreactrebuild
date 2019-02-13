@@ -7,12 +7,14 @@ const projects = [
     link: "https://my-reading-list-and-wishlist.herokuapp.com/"
   },
   {
-    name: "placeholder2",
-    image: "/images/portfolio placeholder.jpg"
+    name: "munchkins zombies counter app",
+    image: "/images/munchkinsapp.png",
+    link: "https://codepen.io/wbray93/full/GzxJwX"
   },
   {
-    name: "placehokder3",
-    image: "/images/portfolio placeholder.jpg"
+    name: "modal from scratch",
+    image: "/images/modalscratch.png",
+    link: "https://codepen.io/wbray93/full/MLrQja"
   },
   {
     name: "placeholder4",
