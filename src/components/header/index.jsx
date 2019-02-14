@@ -29,9 +29,6 @@ class Header extends React.Component {
           <div className="mobile-only">
             <i onClick={this.toggleDropdown} className="fas fa-bars" />
           </div>
-          <div className="desktop-only link-style">
-            <Link to="/blog">Blog</Link>
-          </div>
         </div>
         {this.state.isDropdownOpen && (
           <div id="dropdown">
