@@ -16,13 +16,13 @@ class Form extends React.Component {
         >
           <input
             className="name-box-size"
-            placeholder="Name"
+            placeholder=" Name"
             type="text"
             name="name"
           />
           <input
             className="email-box-size"
-            placeholder="Email"
+            placeholder=" Email"
             type="email"
             name="_replyto"
           />
