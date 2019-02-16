@@ -32,8 +32,8 @@ class Header extends React.Component {
         </div>
         {this.state.isDropdownOpen && (
           <div id="dropdown">
-            <Link to="/">Home</Link>
-            <Link to="/projects">Project Page</Link>
+            <Link onClick={() => this.setState({isDropdownOpen: false})} to="/">Home</Link>
+            <Link onClick={() => this.setState({isDropdownOpen: false})} to="/projects">Project Page</Link>
           </div>
         )}
       </div>
