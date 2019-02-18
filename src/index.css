@@ -148,6 +148,10 @@ h5 {
   padding: 8px;
 }
 
+.skills-color {
+  color: red;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   

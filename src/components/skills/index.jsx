@@ -7,14 +7,14 @@ const Skills = () => (
   </div>
   <div>
     <ul className="skills-section-ul-padding">
-      <strong><li className="skills-section-list">HTML5: Two years experience</li></strong>
-      <strong><li className="skills-section-list">CSS3: Two years experience.</li></strong>
-      <strong><li className="skills-section-list">Javascript(ES6).</li></strong>
-      <strong><li className="skills-section-list">Git: One year of experience.</li></strong>
-      <strong><li className="skills-section-list">Github: One year of experience.</li></strong>
-      <strong><li className="skills-section-list">React: One year of experience.</li></strong>
-      <strong><li className="skills-section-list">jQuery: Two years of experience.</li></strong>
-      <strong><li className="skills-section-list">Heroku: One year of experience</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">HTML5:</span> Two years experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">CSS3:</span> Two years experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color"> Javascript:</span> One year of experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">Git:</span> One year of experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">Github:</span> One year of experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">React:</span> One year of experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">jQuery:</span> Two years of experience.</li></strong>
+      <strong><li className="skills-section-list"><span className="skills-color">Heroku:</span> One year of experience.</li></strong>
     </ul>
   </div>
   </div>
