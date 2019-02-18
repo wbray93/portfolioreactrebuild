@@ -249,6 +249,10 @@ h5 {
     font-size: 26px;
     padding: 10px;
   }
+
+  .projects-row {
+    background-color: #ddddf9;
+  }
 }
 
 

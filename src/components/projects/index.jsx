@@ -21,22 +21,6 @@ const projects = [
     image: "/images/breakoutgame.png",
     link: "https://wbray93.github.io/breakoutgame/"
   },
-  {
-    name: "placeholder5",
-    image: "/images/portfolio placeholder.jpg"
-  },
-  {
-    name: "placeholder6",
-    image: "/images/portfolio placeholder.jpg"
-  },
-  {
-    name: "placeholder7",
-    image: "/images/portfolio placeholder.jpg"
-  },
-  {
-    name: "placeholder8",
-    image: "/images/portfolio placeholder.jpg"
-  }
 ];
 
 let projectsByRow = [];
